@@ -33,4 +33,52 @@ class Magespec_Adapters_Model_Mage
     {
         return Mage::registry($key);
     }
+
+    public function unregister($key)
+    {
+        Mage::unregister($key);
+    }
+
+    public function getBaseDir($type = 'base')
+    {
+        return Mage::getBaseDir($type);
+    }
+
+    /**
+     * Directory type can be:
+     * - etc
+     * - controllers
+     * - sql
+     * - data
+     * - locale
+     */
+    public function getModuleDir($type, $moduleName)
+    {
+        return Mage::getModuleDir($type, $moduleName);
+    }
+
+    public function getStoreConfig($path, $store = null)
+    {
+        return Mage::getStoreConfig($path, $store);
+    }
+
+    public function getStoreConfigFlag($path, $store = null)
+    {
+        return Mage::getStoreConfigFlag($path, $store);
+    }
+
+    public function getConfig()
+    {
+        return Mage::getConfig();
+    }
+
+    public function getEvents()
+    {
+        return Mage::getEvents();
+    }
+
+    public function helper($name)
+    {
+        return Mage::helper($name);
+    }
 }
