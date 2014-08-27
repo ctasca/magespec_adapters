@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magespec_Adapters>
+            <version>0.1.0</version>
+        </Magespec_Adapters>
+    </modules>
+    <global>
+        <models>
+            <magespec_adapters>
+                <class>Magespec_Adapters_Model</class>
+            </magespec_adapters>
+        </models>
+    </global>
+</config>

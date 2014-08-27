@@ -1,0 +1,15 @@
+{
+    "name": "ctasca/magespec_adapters",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento Module providing a set of Magespec adapters",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Carlo Tasca",
+            "email":"carlo.tasca.mail@gmail.com"
+        }
+    ]
+}
