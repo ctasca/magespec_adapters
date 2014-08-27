@@ -141,3 +141,13 @@ public/shell/umt113_redirect.php
 public/shell/url_migration_from_1_13_0_0_to_1_13_0_2.php
 public/shell/url_migration_to_1_13.php
 tools/
+.editorconfig
+Gemfile
+Gemfile.lock
+Hobofile
+README.md
+behat.yml
+build.xml
+features/
+phpdoc.xml
+phpmd.xml
